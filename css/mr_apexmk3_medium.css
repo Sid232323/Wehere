@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'mr_ApexMk3 Medium';
+	src: url('../fonts/mr_apexmk3_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/mr_apexmk3_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/mr_apexmk3_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/mr_apexmk3_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/mr_apexmk3_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/mr_apexmk3_medium.svg#mr_apexmk3_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
