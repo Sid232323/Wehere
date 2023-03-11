@@ -125,4 +125,5 @@ body {
 .price {
   min-height: 2107px;
   background: url(../img/price/price.png);
+  background-size: cover;
 }/*# sourceMappingURL=style.min.css.map */
