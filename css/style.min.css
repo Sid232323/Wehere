@@ -120,4 +120,9 @@ body {
 }
 .AboutUs_block span span {
   font-weight: 600;
+}
+
+.price {
+  min-height: 2107px;
+  background: url(../img/price/price.png);
 }/*# sourceMappingURL=style.min.css.map */
