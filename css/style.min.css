@@ -126,4 +126,78 @@ body {
   min-height: 2107px;
   background: url(../img/price/price.png);
   background-size: cover;
+}
+.price_block {
+  margin-top: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price_block_blocks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 945px;
+  background: #E4EFFF;
+  border: 1px solid #121212;
+  border-radius: 30px;
+}
+.price_block_blocks:nth-child(1) {
+  margin-top: 0;
+  min-height: 131px;
+}
+.price_block_blocks:nth-child(2) {
+  min-height: 271px;
+}
+.price_block_blocks:nth-child(3) {
+  min-height: 425px;
+}
+.price_block_blocks:nth-child(4) {
+  min-height: 116px;
+}
+.price_block_blocks:nth-child(5) {
+  min-height: 190px;
+}
+.price_block_blocks:nth-child(6) {
+  min-height: 345px;
+}
+.price_block_blocks:nth-child(7) {
+  min-height: 131px;
+}
+.price_block_blocks span {
+  display: inline-block;
+  /* margin-left: 82px */
+  margin-top: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #121212;
+}
+.price_block_blocks .list {
+  margin-top: 25px;
+  width: 310px;
+}
+.price_block_blocks .list li {
+  margin-top: 15px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #121212;
+}
+.price_block_blocks .list li:nth-child(1) {
+  margin-top: 0;
+}
+.price_block_blocks .cost {
+  margin-top: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #121212;
 }/*# sourceMappingURL=style.min.css.map */
