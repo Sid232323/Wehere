@@ -112,8 +112,8 @@ body
 		flex-direction: column
 		align-items: center
 		&_blocks
-			display: flex
-			justify-content: space-evenly
+			display: flex 
+			/* justify-content: space-evenly */ 
 			margin-top: 40px			
 			width: 945px
 			background: #E4EFFF 
@@ -144,19 +144,21 @@ body
 				font-size: 24px 
 				line-height: 33px 
 				color: #121212 
-			.list
-				margin-top: 25px
-				width: 310px			
+			.list			
 				li
 					margin-top: 15px
-					font-family: 'Manrope' 
-					font-style: normal 
-					font-weight: 400 
-					font-size: 16px 
-					line-height: 22px
-					color: #121212 
+					font-size: 10px					
+					list-style-type: disc	
+					vertical-align: center				
 					&:nth-child(1)
 						margin-top: 0
+					span
+						font-family: 'Manrope' 
+						font-style: normal 
+						font-weight: 400 
+						font-size: 16px 
+						line-height: 22px
+						color: #121212
 						
 			.cost
 				margin-top: 25px
