@@ -110,7 +110,6 @@ body {
   color: #121212;
 }
 .AboutUs_block span {
-  /* position: relative */
   width: 1140px;
   font-family: "Manrope";
   font-style: normal;
@@ -118,9 +117,6 @@ body {
   line-height: 140%;
   text-align: center;
   color: #121212;
-  /* .mark
-  * position: absolute
-  * mix-blend-mode: soft-light */
 }
 .AboutUs_block span span {
   font-weight: 600;
@@ -128,11 +124,12 @@ body {
 }
 
 .price {
-  min-height: 2107px;
+  min-height: 2217px;
   background: url(../img/price/price.png);
   background-size: cover;
 }
 .price_block {
+  position: relative;
   margin-top: 40px;
   display: flex;
   padding: 25px 0;
@@ -175,4 +172,17 @@ body {
   line-height: 44px;
   text-align: center;
   color: #121212;
+}
+.price_block .top {
+  width: 134.68px;
+  height: 116px;
+  position: absolute;
+  top: 131px;
+}
+.price_block .wow {
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  top: 128px;
+  left: 22px;
 }/*# sourceMappingURL=style.min.css.map */
