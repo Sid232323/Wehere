@@ -110,6 +110,7 @@ body {
   color: #121212;
 }
 .AboutUs_block span {
+  /* position: relative */
   width: 1140px;
   font-family: "Manrope";
   font-style: normal;
@@ -117,9 +118,13 @@ body {
   line-height: 140%;
   text-align: center;
   color: #121212;
+  /* .mark
+  * position: absolute
+  * mix-blend-mode: soft-light */
 }
 .AboutUs_block span span {
   font-weight: 600;
+  background-image: url(../img/AboutUs/marker.png);
 }
 
 .price {
