@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #FFF8E4;
 }
@@ -175,14 +176,21 @@ body {
   line-height: 33px;
   color: #121212;
 }
+.price_block_blocks .list {
+  display: flex;
+  min-height: 81px;
+}
 .price_block_blocks .list li {
   margin-top: 15px;
-  font-size: 10px;
-  list-style-type: disc;
-  vertical-align: center;
 }
 .price_block_blocks .list li:nth-child(1) {
   margin-top: 0;
+}
+.price_block_blocks .list li::marker {
+  display: block;
+  content: "●";
+  font-size: 10px;
+  margin-top: 15px;
 }
 .price_block_blocks .list li span {
   font-family: "Manrope";
@@ -191,6 +199,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #121212;
+  vertical-align: top;
 }
 .price_block_blocks .cost {
   margin-top: 25px;
