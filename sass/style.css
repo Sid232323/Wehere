@@ -380,3 +380,43 @@ body {
 .req_block .req_send:hover {
   margin-top: 30px;
 }
+
+.music {
+  min-height: 935px;
+  background: url(../img/music/background.png) no-repeat;
+  background-size: cover;
+}
+
+.music_block {
+  margin: 0 auto;
+  margin-top: 59px;
+  width: 1140px;
+  height: 796px;
+  background: url(../img/music/player/block.png) no-repeat;
+  background-size: cover;
+}
+
+.music_block_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 140px;
+}
+
+.music_block .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 119px;
+}
+
+.music_block .controls button {
+  border: none;
+  background: none;
+}

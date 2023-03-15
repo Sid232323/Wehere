@@ -152,5 +152,39 @@
             <button class="req_send">Отправить заявку</button>
         </div>
    </section>
+   <!-- Это НУЖНО! -->
+   <!-- <section class="test_audio">
+    <audio id="audio" src="/Wehere/music/track_1.mp3"></audio>
+    <div id="controls">
+        <div class="audio-track"><div class="time"></div></div>
+        <button class="play">Play</button>
+        <button class="pause">Pause</button>
+        <button class="prev">&#60;prev</button>
+        <button class="next">next&#62;</button>
+    </div>
+   </section> -->
+   <!-- Плеер. РАЗОБРАТЬСЯ С ЭТИМ БЛОКОМ -->
+   <section class="music">
+    <div class="container">
+        <div class="row">
+            <div class="music_block">
+                <div class="music_block_images">
+                    <img src="img/music/player/cat.png" alt="cat" class="cat">
+                </div>
+                <audio id="audio" src="/Wehere/music/track_1.mp3"></audio>
+                <div id="controls" class="controls">
+                    <div class="audio-track">
+                    <div class="time"></div>
+                </div>                        
+                    <button class="prev"><img src="img/music/player/controls/prev.svg" alt="next"></button>
+                    <button class="play">Play</button>
+                    <button class="pause"><img src="img/music/player/controls/pause.svg" alt="next"></button>
+                    <button class="next"><img src="img/music/player/controls/next.svg" alt="next"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
 </body>
+<script src="js/player.js"></script>
 </html>
