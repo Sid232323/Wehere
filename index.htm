@@ -169,23 +169,42 @@
         <div class="row">
             <div class="music_block">
                 <div class="music_block_images">
-                    <img src="img/music/player/cat.png" alt="cat" class="cat">
+                    <img id="cat" src="img/music/player/cat.png" alt="cat" class="cat">
                 </div>
-                <audio id="audio" src="/Wehere/music/track_1.mp3"></audio>
+                <script>
+                    function show() {
+                        document.getElementById("pause").hidden = false;
+                        document.getElementById("play").hidden = true;
+                    }
+                    function hide() {
+                        document.getElementById("play").hidden = false;
+                        document.getElementById("pause").hidden = true;
+                    }
+                    function cat_1(){
+                        document.getElementById("cat").src="img/music/player/cat2.png"
+                    }
+                    function cat_2(){
+                        document.getElementById("cat").src="img/music/player/cat.png"
+                    }
+                   </script>
+                <audio id="audio" src="/music/track_1.mp3"></audio>
                 <div id="controls" class="controls">
                     <div class="audio-track">
                     <div class="time"></div>
-                </div>                        
-                    <button class="prev"><img src="img/music/player/controls/prev.svg" alt="next"></button>
-                    <button class="play">Play</button>
-                    <button class="pause"><img src="img/music/player/controls/pause.svg" alt="next"></button>
-                    <button class="next"><img src="img/music/player/controls/next.svg" alt="next"></button>
+                    </div>                        
+                    <div class="control_panel">
+                        <button class="prev" onclick="cat_2()"><img src="img/music/player/controls/prev.svg" alt="next"></button>
+                        <button class="play" id="play" onclick="show()"><img  src="img/music/player/controls/play.svg" alt="next"></button>
+                        <button class="pause" id="pause" hidden onclick="hide()"><img  src="img/music/player/controls/pause.svg" alt="next"></button>
+                        <button class="next" onclick="cat_1()"><img src="img/music/player/controls/next.svg" alt="next"></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
    </section>
    <!-- Конец -->
+   <!-- Отзывы -->
    <section class="rev">
     <div class="container">
         <div class="row">
@@ -198,31 +217,38 @@
                             <span class="name">София</span>
                             <img src="img/rev/stars.svg" alt="stars" class="stars">
                         </div>
-                        <hr></hr>
-                        <span class="text">
-    
-                        </span>
+                        <div class="line"></div>
+                        <div class="text">
+                            <span class="text_rev">
+                                Спасибо Wehere! Cпасибо звукорежесёру, который очень старается над моими треками и всего самого наилучшего этой студии!
+                            </span>
+                        </div>
                     </div>
                     <div class="rev_block_b_blocks">
                         <div class="name_block">
                             <span class="name">Дмитрий</span>
                             <img src="img/rev/stars.svg" alt="stars" class="stars">
                         </div>
-                        <hr></hr>
-                        <span class="text">
-    
-                        </span>
+                        <div class="line"></div>
+                        <div class="text">
+                            <span class="text_rev">
+                                Была большая головная боль в выборе студии. Но вот я нашел место, где меня не только записали, но и сделали с нуля минус, и грамотно его свели. Также была сделана обработка голосов и многое другое. Остался доволен песней и работой ребят)
+                            </span>
+                        </div>
                     </div>
                     <div class="rev_block_b_blocks">
                         <div class="name_block">
                             <span class="name">Лиза</span>
                             <img src="img/rev/stars.svg" alt="stars" class="stars">
                         </div>
-                        <hr></hr>
-                        <span class="text">
-    
-                        </span>
+                        <div class="line"></div>
+                        <div class="text">
+                            <span class="text_rev">
+                                Лучшая студия в Саратове, комфортная контрольная комната, профессиональная техника, милейшие ребята. Я не умею петь, но песня получилась бомба, спасибо большое!!!
+                            </span>
+                        </div>                        
                     </div>
+                    
                     <!-- <div class="rev_block_b_blocks">
                         <span class="name">Андрей</span>
                         <img src="" alt="stars" class="stars">
@@ -249,7 +275,9 @@
                     </div> -->
                     <img src="img/rev/Arrow_right.png" alt="arrow_left" class="arrow">
                 </div>
-                
+                <button class="read_all">
+                    Читать все отзывы
+                </button>
             </div>
         </div>
     </div>

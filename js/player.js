@@ -50,7 +50,7 @@ btnPlay.addEventListener("click", function() {
     }, 10)
 });
 
-btnPause.addEventListener("click", function() {
+btnPause.addEventListener("click", function() {  
     audio.pause(); // Останавливает песню
     clearInterval(audioPlay) // Останавливает интервал
 });

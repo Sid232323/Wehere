@@ -1,1 +1,428 @@
-body{background-color:#FFF8E4}.header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:88px}.header_logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-family:'mr_ApexMk3';font-style:normal;font-weight:500;font-size:32px;line-height:38px;color:#121212}.header_nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.header_nav a{margin-right:50px;text-decoration:none;font-family:'Manrope';font-style:normal;font-weight:400;font-size:20px;line-height:27px;text-align:center;color:#121212}.header_nav a:nth-child(5){margin-right:0}.studio{height:674px}.studio_samara{width:1180px;height:628px;background:url(../img/studio.png);background-size:cover;margin-top:19px;margin-left:60px}.studio_samara_block{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.studio_samara_block h2{margin-top:130px;font-family:'mr_ApexMk3';font-style:normal;font-weight:500;font-size:48px;line-height:120%;color:#121212}.studio_samara_block span{margin-top:20px;font-family:'Manrope';font-style:normal;font-weight:400;font-size:24px;line-height:33px;color:#121212}.studio_samara_block_btn{margin-top:30px;width:360px;height:80.82px;background:#7EDED7;border:1px solid #121212;-webkit-box-shadow:6px 6px 0px #121212;box-shadow:6px 6px 0px #121212;border-radius:62px;font-family:'Manrope';font-style:normal;font-weight:600;font-size:24px;line-height:33px;text-align:center;color:#121212;-webkit-transition:0.3s all;transition:0.3s all}.studio_samara_block_btn:hover{background-color:#87E6DF}.studio_samara_block_btn:active{margin-top:34px;-webkit-box-shadow:0px 0px 0px #121212;box-shadow:0px 0px 0px #121212}.AboutUs{min-height:800px}.AboutUs_block{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:22px}.AboutUs_block h2{margin-top:20px;font-family:'mr_ApexMk3';font-style:normal;font-weight:500;font-size:48px;line-height:58px;text-align:center;color:#121212}.AboutUs_block span{width:1140px;font-family:'Manrope';font-style:normal;font-size:24px;line-height:140%;text-align:center;color:#121212}.AboutUs_block span span{font-weight:600;background-image:url(../img/AboutUs/marker.png)}.price{min-height:2217px;background:url(../img/price/price.png);background-size:cover}.price_block{position:relative;margin-top:40px;display:-webkit-box;display:-ms-flexbox;display:flex;padding:25px 0;background:#E4EFFF;border:1px solid #121212;border-radius:30px}.price_block:nth-child(1){margin-top:187px}.price_block .name{font-family:'Manrope';font-style:normal;font-weight:700;font-size:24px;line-height:33px;color:#121212}.price_block ul li{margin-top:15px;font-size:10px}.price_block ul li:nth-child(1){margin-top:0}.price_block ul li span{font-family:'Manrope';font-style:normal;font-weight:400;font-size:16px;line-height:22px;color:#121212;vertical-align:middle}.price_block .cost{font-family:'Manrope';font-style:normal;font-weight:400;font-size:32px;line-height:44px;text-align:center;color:#121212}.price_block .top{width:134.68px;height:116px;position:absolute;top:131px}.price_block .wow{width:117px;height:117px;position:absolute;top:128px;left:22px}.mem{min-height:325px;background:url(../img/mem.png) center}.req{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;min-height:690px;background:url(../img/smile.png) center no-repeat}.req_block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:158px;width:750px;height:371px}.req_block h2{font-family:'mr_ApexMk3';font-style:normal;font-weight:500;font-size:48px;line-height:58px;text-align:center;color:#121212}.req_block span{margin-top:20px;font-family:'Manrope';font-style:normal;font-weight:400;font-size:20px;line-height:27px;text-align:center;color:#121212}.req_block input{padding-left:20px;width:555px;height:45px;background:#FFFBEF;border:1px solid #121212;border-radius:38px;font-family:'Manrope';font-style:normal;font-weight:400;font-size:16px;line-height:19px;color:#121212;text-decoration:none}.req_block input::-webkit-input-placeholder{color:#C7C7C7}.req_block input:-ms-input-placeholder{color:#C7C7C7}.req_block input::-ms-input-placeholder{color:#C7C7C7}.req_block input::placeholder{color:#C7C7C7}.req_block .name{margin-top:40px}.req_block .num{margin-top:25px}.req_block .req_send{width:360px;height:80.82px;background:#7EDED7;border:1px solid #121212;-webkit-box-shadow:6px 6px 0px #121212;box-shadow:6px 6px 0px #121212;border-radius:62px;font-family:'Manrope';font-style:normal;font-weight:600;font-size:24px;line-height:33px;text-align:center;color:#121212;-webkit-transition:0.3s all;transition:0.3s all;margin-top:30px}.req_block .req_send:hover{background-color:#87E6DF}.req_block .req_send:active{margin-top:34px;-webkit-box-shadow:0px 0px 0px #121212;box-shadow:0px 0px 0px #121212}.req_block .req_send:hover{margin-top:30px}.music{min-height:935px;background:url(../img/music/background.png) no-repeat;background-size:cover}.music_block{margin:0 auto;margin-top:59px;width:1140px;height:796px;background:url(../img/music/player/block.png) no-repeat;background-size:cover}.music_block_images{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:140px}.music_block .controls{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:119px}.music_block .controls button{border:none;background:none}.rev{min-height:554px}.rev_block{margin-top:69px;height:442px}.rev_block h2{font-family:'mr_ApexMk3';font-style:normal;font-weight:500;font-size:48px;line-height:58px;color:#121212}.rev_block_b{margin-top:40px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:264px}.rev_block_b .arrow{width:38px;height:18px}.rev_block_b_blocks{background:#DDF9CC;border:1px solid #121212;border-radius:20px;-webkit-box-shadow:-5px 5px 0px #121212;box-shadow:-5px 5px 0px #121212;width:353px;height:255px}.rev_block_b_blocks .name_block{padding:15px 25px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.rev_block_b_blocks .name_block .name{font-family:'Manrope';font-style:normal;font-weight:700;font-size:20px;line-height:27px;color:#121212}.rev_block_b_blocks .name_block .stars{width:136px;height:25px}.rev_block_b_blocks hr{margin:0}
+body {
+  background-color: #FFF8E4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 88px;
+}
+.header_logo {
+  display: flex;
+  justify-content: center;
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #121212;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_nav a {
+  margin-right: 50px;
+  text-decoration: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #121212;
+}
+.header_nav a:nth-child(5) {
+  margin-right: 0;
+}
+
+.studio {
+  height: 674px;
+}
+.studio_samara {
+  width: 1180px;
+  height: 628px;
+  background: url(../img/studio.png);
+  background-size: cover;
+  margin-top: 19px;
+  margin-left: 60px;
+}
+.studio_samara_block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.studio_samara_block h2 {
+  margin-top: 130px;
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #121212;
+}
+.studio_samara_block span {
+  margin-top: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #121212;
+}
+.studio_samara_block_btn {
+  margin-top: 30px;
+  width: 360px;
+  height: 80.82px;
+  background: #7EDED7;
+  border: 1px solid #121212;
+  box-shadow: 6px 6px 0px #121212;
+  border-radius: 62px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #121212;
+  transition: 0.3s all;
+}
+.studio_samara_block_btn:hover {
+  background-color: #87E6DF;
+}
+.studio_samara_block_btn:active {
+  margin-top: 34px;
+  box-shadow: 0px 0px 0px #121212;
+}
+
+.AboutUs {
+  min-height: 800px;
+}
+.AboutUs_block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+.AboutUs_block h2 {
+  margin-top: 20px;
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #121212;
+}
+.AboutUs_block span {
+  width: 1140px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #121212;
+}
+.AboutUs_block span span {
+  font-weight: 600;
+  background-image: url(../img/AboutUs/marker.png);
+}
+
+.price {
+  min-height: 2217px;
+  background: url(../img/price/price.png);
+  background-size: cover;
+}
+.price_block {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  padding: 25px 0;
+  background: #E4EFFF;
+  border: 1px solid #121212;
+  border-radius: 30px;
+}
+.price_block:nth-child(1) {
+  margin-top: 187px;
+}
+.price_block .name {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #121212;
+}
+.price_block ul li {
+  margin-top: 15px;
+  font-size: 10px;
+}
+.price_block ul li:nth-child(1) {
+  margin-top: 0;
+}
+.price_block ul li span {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #121212;
+  vertical-align: middle;
+}
+.price_block .cost {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #121212;
+}
+.price_block .top {
+  width: 134.68px;
+  height: 116px;
+  position: absolute;
+  top: 131px;
+}
+.price_block .wow {
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  top: 128px;
+  left: 22px;
+}
+
+.mem {
+  min-height: 325px;
+  background: url(../img/mem.png) center;
+}
+
+.req {
+  display: flex;
+  justify-content: center;
+  min-height: 690px;
+  background: url(../img/smile.png) center no-repeat;
+}
+.req_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 158px;
+  width: 750px;
+  height: 371px;
+}
+.req_block h2 {
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #121212;
+}
+.req_block span {
+  margin-top: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #121212;
+}
+.req_block input {
+  padding-left: 20px;
+  width: 555px;
+  height: 45px;
+  background: #FFFBEF;
+  border: 1px solid #121212;
+  border-radius: 38px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #121212;
+  text-decoration: none;
+}
+.req_block input::-moz-placeholder {
+  color: #C7C7C7;
+}
+.req_block input::placeholder {
+  color: #C7C7C7;
+}
+.req_block .name {
+  margin-top: 40px;
+}
+.req_block .num {
+  margin-top: 25px;
+}
+.req_block .req_send {
+  width: 360px;
+  height: 80.82px;
+  background: #7EDED7;
+  border: 1px solid #121212;
+  box-shadow: 6px 6px 0px #121212;
+  border-radius: 62px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #121212;
+  transition: 0.3s all;
+  margin-top: 30px;
+}
+.req_block .req_send:hover {
+  background-color: #87E6DF;
+}
+.req_block .req_send:active {
+  margin-top: 34px;
+  box-shadow: 0px 0px 0px #121212;
+}
+.req_block .req_send:hover {
+  margin-top: 30px;
+}
+
+.music {
+  min-height: 935px;
+  background: url(../img/music/background.png) no-repeat;
+  background-size: cover;
+}
+.music_block {
+  margin: 0 auto;
+  margin-top: 59px;
+  width: 1140px;
+  height: 796px;
+  background: url(../img/music/player/block.png) no-repeat;
+  background-size: cover;
+}
+.music_block_images {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+.music_block_images .cat {
+  width: 360px;
+  height: 360px;
+}
+.music_block .controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 119px;
+}
+.music_block .controls button {
+  margin-top: 30px;
+  border: none;
+  background: none;
+}
+.music_block .controls .audio-track {
+  width: 360px;
+  height: 5px;
+  background-color: #121212;
+  border-radius: 30px;
+}
+.music_block .controls .time {
+  width: 0;
+  height: 5px;
+  background-color: #BEA6EC;
+  border-radius: 30px;
+}
+
+.rev {
+  min-height: 554px;
+}
+.rev_block {
+  margin-top: 69px;
+  height: 442px;
+}
+.rev_block h2 {
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #121212;
+  text-align: center;
+}
+.rev_block_b {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 264px;
+}
+.rev_block_b .arrow {
+  width: 38px;
+  height: 18px;
+}
+.rev_block_b_blocks {
+  background: #DDF9CC;
+  border: 1px solid #121212;
+  border-radius: 20px;
+  box-shadow: -5px 5px 0px #121212;
+  width: 353px;
+  height: 255px;
+}
+.rev_block_b_blocks .name_block {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.rev_block_b_blocks .name_block .name {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #121212;
+}
+.rev_block_b_blocks .name_block .stars {
+  width: 136px;
+  height: 25px;
+}
+.rev_block_b_blocks .line {
+  width: 100%;
+  height: 1px;
+  background-color: #121212;
+}
+.rev_block_b_blocks .text {
+  margin-top: 15px;
+  padding: 0 25px;
+}
+.rev_block_b_blocks .text_rev {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #121212;
+}
+.rev_block .read_all {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 1px solid #121212;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #121212;
+  transition: 0.3s all;
+}
+.rev_block .read_all:hover {
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 50%;
+}/*# sourceMappingURL=style.min.css.map */
