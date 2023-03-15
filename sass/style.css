@@ -420,3 +420,78 @@ body {
   border: none;
   background: none;
 }
+
+.rev {
+  min-height: 554px;
+}
+
+.rev_block {
+  margin-top: 69px;
+  height: 442px;
+}
+
+.rev_block h2 {
+  font-family: 'mr_ApexMk3';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #121212;
+}
+
+.rev_block_b {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 264px;
+}
+
+.rev_block_b .arrow {
+  width: 38px;
+  height: 18px;
+}
+
+.rev_block_b_blocks {
+  background: #DDF9CC;
+  border: 1px solid #121212;
+  border-radius: 20px;
+  -webkit-box-shadow: -5px 5px 0px #121212;
+          box-shadow: -5px 5px 0px #121212;
+  width: 353px;
+  height: 255px;
+}
+
+.rev_block_b_blocks .name_block {
+  padding: 15px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rev_block_b_blocks .name_block .name {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #121212;
+}
+
+.rev_block_b_blocks .name_block .stars {
+  width: 136px;
+  height: 25px;
+}
+
+.rev_block_b_blocks hr {
+  margin: 0;
+}
