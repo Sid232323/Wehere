@@ -4,13 +4,12 @@ let btnPlay = document.querySelector(".play");   // Берём кнопку пр
 let btnPause = document.querySelector(".pause"); // Берём кнопку паузы
 let btnPrev = document.querySelector(".prev");   // Берём кнопку переключения предыдущего трека
 let btnNext = document.querySelector(".next");   // Берём кнопку переключение следующего трека
-
+let playerIMG = document.getElementById('cat'); //Берём изображение
 // Массив с названиями песен
 let playlist = [
     'track_1.mp3',
     'track_2.mp3',    
 ];
- 
 let treck; // Переменная с индексом трека
  
 // Событие перед загрузкой страницы
@@ -76,3 +75,23 @@ btnNext.addEventListener("click", function() {
         switchTreck(treck); // Меняем песню
     }
 });
+function catIMG(){
+    if (treck == 0){
+        playerIMG.src = "img/music/player/cat.png";
+    }
+    else{
+        playerIMG.src = " ";
+    }
+}
+function catIMG2(){
+    if (treck >= 1){
+        playerIMG.src = "img/music/player/cat2.png";
+    }
+    else{playerIMG.src = " ";}
+    
+}
+
+console.log(playlist)
+console.log(playerIMG)
+console.log(treck)
+

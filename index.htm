@@ -181,10 +181,21 @@
                         document.getElementById("pause").hidden = true;
                     }
                     function cat_1(){
-                        document.getElementById("cat").src="img/music/player/cat2.png"
+                        if(treck == 0){
+                            document.getElementById("cat").src="img/music/player/cat2.png"
+                        }
+                        else{
+                            document.getElementById("cat").src=" "
+                        }
+                        
                     }
                     function cat_2(){
-                        document.getElementById("cat").src="img/music/player/cat.png"
+                        if(treck >= 1){
+                            document.getElementById("cat").src="img/music/player/cat.png"
+                        }
+                        else{
+                            document.getElementById("cat").src=" "
+                        }
                     }
                    </script>
                 <audio id="audio" src="/music/track_1.mp3"></audio>
@@ -326,4 +337,21 @@
    </section>
 </body>
 <script src="js/player.js"></script>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer_left col-md-3">
+                <h2>wehere</h2>
+                <div class="text">Политика конфиденциальности</div>
+            </div>
+            <div class="footer_copyright col-md-2 offset-md-2">
+                <div class="text">©️2017 «Wehere»</div>
+            </div>
+            <div class="footer_right col-md-4 offset-md-1">
+                <div class="text">Сайт не является публичной офертой 
+                    и носит информационный характер</div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>

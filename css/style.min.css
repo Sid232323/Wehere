@@ -511,4 +511,41 @@ body {
   margin-top: 40px;
   width: 651px;
   height: 504px;
+}
+
+.footer {
+  height: 132px;
+  background: #E4EF7A;
+}
+.footer .text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #505050;
+}
+.footer_left {
+  margin-top: 16px;
+}
+.footer_left h2 {
+  font-family: "mr_ApexMk3";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #121212;
+}
+.footer_left .text {
+  margin-top: 28px;
+}
+.footer_copyright {
+  margin-top: 82px;
+}
+.footer_right {
+  margin-top: 52px;
+}
+.footer_right .text {
+  text-align: right;
 }/*# sourceMappingURL=style.min.css.map */
